@@ -11,7 +11,7 @@ import WatchList from "./WatchList";
 import { GeneralContextProvider } from "./GeneralContext";
 
 const Dashboard = () => {
-  const navigate = useNavigate();
+  //  const navigate = useNavigate();
   const [checkedAuth, setCheckedAuth] = useState(false);
 
   useEffect(() => {
