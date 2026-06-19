@@ -17,7 +17,7 @@ const Menu = () => {
   // 🔥 LOGOUT FUNCTION
   const handleLogout = () => {
     localStorage.removeItem("token"); // remove token
-    window.location.href = "http://localhost:3000"; // redirect to login
+    window.location.href = "https://zerodha-backend-t2bv.onrender.com"; // redirect to login
   };
 
   const menuClass = "menu";

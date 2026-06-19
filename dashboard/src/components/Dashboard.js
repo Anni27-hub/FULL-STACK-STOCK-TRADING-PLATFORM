@@ -21,7 +21,7 @@ const Dashboard = () => {
 
       if (!token) {
         alert("Please login first");
-        window.location.href = "http://localhost:3000"; // go back to login app
+        window.location.href = "https://zerodha-backend-t2bv.onrender.com"; // go back to login app
       } else {
         setCheckedAuth(true);
       }

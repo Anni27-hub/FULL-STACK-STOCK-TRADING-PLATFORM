@@ -1,0 +1,19 @@
+# Dependencies
+**/node_modules/
+
+# Build folders
+**/build/
+**/dist/
+
+# Environment files
+**/.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Media
+*.mp4
