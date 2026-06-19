@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import { useLoader } from "../LoaderContext.js";
-//import { useNavigate } from "react-router-dom";
 import API from "../../api";
 
 function Signup() {
   const { setLoading } = useLoader();
-  //const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
     name: "",
@@ -73,7 +71,7 @@ function Signup() {
       alert("Login successful!");
       const token = res.data.token;
 
-      window.location.href = `http://localhost:3001?token=${token}`;
+      window.location.href = `https://full-stack-stock-trading-platform-y.vercel.app?token=${token}`;
     } catch (err) {
       setError(err.response?.data?.message || "Login failed!");
     }
